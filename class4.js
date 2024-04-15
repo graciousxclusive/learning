@@ -38,12 +38,12 @@ console.log(a > b || a < c);*/
 
 // if statement
 if (a > b) {
-    console.log("person A is taller");
+    console.log("Person A is taller.");
 } 
 
 else if (a == b) {
-    console.log("person A is equal in height");
+    console.log("Person A is equal in height.");
 } 
 else {
-    console.log("person A is shorter");
+    console.log("Person A is shorter.");
 }  
