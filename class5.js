@@ -1,46 +1,38 @@
-function sayHi() {
-    console.log("hello there")
-   function sayHi() 
-   }
-   sayHi()
-   
-   function sayHi2(name){
-    console.log("hello there," + name);
-   }
-   sayHi2(olamide)
-   const whatCar = ({brand = "honda", ccolor}) => {
-    console.log("This is the " + brand + "brand with a color of" + color);
-   }
-   //whatCar("lexus", "blue");
-   // whatCar({ brand: "lexus", color: "blue"})
+//loops 
+// for (let a = 4; a <= 8; a++){
+//     console.log(a);  
+// }
+// for (let a = 80; a <= 1; a--){
+//     console.log(a);
+//}
+nums = [1, 3, 78, 21, 33, 61, 90]
+// for(let a = 0; a <= 7; a++){
+//     console.log(nums[a]);  //nums[1]   
+//}
 
-   const sumUpValues = ({x, y, z}) => {
-    let c = x + y + z;
-    return c;
-   }
-   console.log(sumUpValues({x: 2, y: 3, z: 1}))
 
-   const fullName = ({firstname, lastname }) => {
-    return firstname + " " + lastname;
-   }
-   console.log(fullname ({firstname: "fatima", lastname: "larne"}))
+// for(let a = 0; a <= nums.lenght - 1; a++){
+//     console.log(nums[a]);  //nums[1]
+// }
 
-   const scores = [20, 30, 68, 12]
+let p = 0;
+while(p <= 6) {
+    console.log(p);
+    p++;
+}
 
-   const sumUpScores = (scores) => {
-    let sum = 0
-    for (let score of scores){
-        sum = sum + score
-        //sum + number
-    }
-    return sum
-   }
-   console.log(sumUpScores(scores))
+while(p <= (nums.lenght - 1)) {
+    console.log(num[p]);
+    p++;
+}
+//do loop 
+let k = 0;
+do {
+    console.log(k);
+    k++;
+} while ( k <= 10(nums.lenght - 1));
 
-   const sumUpScoresV2 =(... scores) =>{
-    let sum = scores.reduce((total, score) => total + score, 0);
-   }
-   console.log(sumUpScoresV2(...scores2))
-
-   const sumFunc = sumUpScores(scores);
-   console.log("sumFunc result", totalScores)
+phones = ['techno', 'pixel', 'itel', 'oppo', 'samsung'];
+for (let phone of phones) {
+    console.log(phones);
+}
