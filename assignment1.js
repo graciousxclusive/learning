@@ -1,6 +1,6 @@
 class Transaction {
     constructor(type, amount) {
-      this.type = type; // 'deposit' or 'withdraw'
+      this.type = type;
       this.amount = amount;
       this.timestamp = new Date();
     }
@@ -53,7 +53,7 @@ class Transaction {
   }
   
 
-  const account = new BankAccount(123456789, "John", "Doe", 1000);
+  const account = new BankAccount(123456789, "Grace", "Umana", 1000);
   console.log(`Account Holder: ${account.accountHolder}`);
   console.log(`Initial Balance: $${account.balance}`);
   account.deposit(500);
