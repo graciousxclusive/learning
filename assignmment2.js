@@ -67,8 +67,6 @@ class BankAccount {
     }
 }
 
-// Example usage:
-
 const account1 = new BankAccount(123456789, "Grace", "Umana", 1000);
 const account2 = new BankAccount(987654321, "David", "Hagin", 1500);
 
@@ -76,4 +74,8 @@ account1.deposit(1000);
 account1.withdraw(500);
 account1.transfer(300, account2);
 account1.withdraw(800);
-account1.viewTransactions();
+console.log("Account 1 Transaction History:");
+console.log(account1.viewTransactions());
+
+console.log("Account 2 Transaction History:");
+console.log(account2.viewTransactions());
